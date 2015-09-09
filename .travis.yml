@@ -1,13 +1,11 @@
 language: python
 python:
 - '3.4'
-- '3.3'
 - '2.7'
 - '2.6'
 - pypy
 install:
-    - pip install -r requirements.txt
-    - pip install coveralls
+    - pip install -r requirements/test.txt
 script:
     coverage run --source=switcher setup.py test
 after_success:
