@@ -1,0 +1,17 @@
+language: python
+python:
+- '3.4'
+- '3.3'
+- '2.7'
+- '2.6'
+- pypy
+install:
+    - pip install -r requirements.txt
+    - pip install coveralls
+script:
+    coverage run --source=switcher setup.py test
+after_success:
+    coveralls
+notifications:
+  slack:
+    secure: O54xSlKtmkzGBmDE/6SX3x61WF75jJylgby0HmRx1/vDfZnxtt+hmBApYMM0VL0ddUtRUi6l3tOnKj/r48gyEsIuEEyRq9P/vR94DtsGgwd1UyoVdyTHYOtIb5FpYU84Ld1/jgrQcsdBoEZPaE4VxY7AflcYlCmZ22darQYtQmCgV9nm8IVWugFJ1OYdXoSP9pOlt+VaMByE7K5D9gHV2KlOoEM0XsbowcRdcQPyC+4cKsfjXbmqHQ2fg2LXNtlDDsPMVXp1+xOB13D2RZRG292GWgqogIedky2KDmRIlXoHljdKErK2WLQ4bttluIg1Ic3zgGiW6GV85wXDcq5KZ9SoLnrwX9VBdY0xGE06boqvrRbWaFCEHbxw8Ew3WhNnFWQ25+uM7zA0xcx+TYmZwe61R+HFwzaFAunxk2BgI/S42gb0Sa4Xjrwmu1cM8b405HU61CAOuKbp87nTH6Z9SFPYscKoJHIde5OveT2JBvDoQDP+bLZ7xrT8HKTfdYJyv+MErNl0tSznlql3AF1M4qoXlYkWByoz01jLRtpOyR/U+x5FGwnWoPBWpiEL8E/A4fZaClGCTqI1iRP1i8oJ8DB5OoF9czf/s2pHHX9HsJkxhMGyaDITc1VlXNZbk7Pb6EGuyaMH6ZLsB4xZ8HT94yikmtON0ZgZw/3hXwUio/U=
