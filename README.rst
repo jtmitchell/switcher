@@ -3,13 +3,14 @@ Video Switcher
 ==============
 
 .. image:: https://travis-ci.org/jtmitchell/switcher.svg?branch=master
-        :target: https://travis-ci.org/jtmitchell/switcher
+      :target: https://travis-ci.org/jtmitchell/switcher
 
-.. image:: https://coveralls.io/repos/jtmitchell/switcher/badge.svg?branch=master&service=github :target: https://coveralls.io/github/jtmitchell/switcher?branch=master
+.. image:: https://coveralls.io/repos/jtmitchell/switcher/badge.svg?branch=master&service=github
+      :target: https://coveralls.io/github/jtmitchell/switcher?branch=master
 
 Python Gstreamer app for switching video inputs, and streaming presentations.
 
-* Free software: GNU General Public License
+* Free software: GPLv3
 * Documentation: https://switcher.readthedocs.org.
 
 Features
