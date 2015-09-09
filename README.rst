@@ -1,6 +1,6 @@
-===============================
+==============
 Video Switcher
-===============================
+==============
 
 .. image:: https://travis-ci.org/jtmitchell/switcher.svg?branch=master
         :target: https://travis-ci.org/jtmitchell/switcher
@@ -25,7 +25,7 @@ Features
 License
 -------
 
-Copyright (C) 2015  James Mitchell <james.mitchell@maungawhau.net.nz>
+Copyright (C) 2015  James Mitchell
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
