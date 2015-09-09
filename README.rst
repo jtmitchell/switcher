@@ -5,12 +5,7 @@ Video Switcher
 .. image:: https://travis-ci.org/jtmitchell/switcher.svg?branch=master
         :target: https://travis-ci.org/jtmitchell/switcher
 
-.. image:: https://coveralls.io/repos/jtmitchell/switcher/badge.svg?branch=master
-        :target: https://coveralls.io/repos/jtmitchell/switcher?branch=master
-        
-.. image:: https://img.shields.io/pypi/v/switcher.svg
-        :target: https://pypi.python.org/pypi/switcher
-
+.. image:: https://coveralls.io/repos/jtmitchell/switcher/badge.svg?branch=master&service=github :target: https://coveralls.io/github/jtmitchell/switcher?branch=master
 
 Python Gstreamer app for switching video inputs, and streaming presentations.
 
